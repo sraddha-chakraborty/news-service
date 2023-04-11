@@ -55,6 +55,25 @@
       <groupId>org.springdoc</groupId>
       <version>2.0.4</version>
     </dependency>
+    <dependency>
+      <artifactId>news-api-java</artifactId>
+	    <groupId>com.github.kwabenberko</groupId>
+	    <version>1.0.2</version>
+	  </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20230227</version>
+    </dependency>
   </dependencies>
   <dependencyManagement>
     <dependencies>
@@ -82,4 +101,10 @@
     <spring-cloud.version>2022.0.1</spring-cloud.version>
   </properties>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+	  <repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	  </repository>
+  </repositories>
 </project>

@@ -13,6 +13,6 @@ public class News {
     private String heading;
     private String content;
     private String source;
-    private Date publishDate;
+    private String publishDate;
     private String author;
 }
