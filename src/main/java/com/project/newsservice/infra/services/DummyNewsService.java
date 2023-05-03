@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.project.newsservice.application.news.ThirdPartyNewsService;
 import com.project.newsservice.domain.News;
 
 @Component

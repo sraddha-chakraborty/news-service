@@ -5,8 +5,6 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 import com.project.newsservice.domain.News;
-import com.project.newsservice.infra.services.GoogleNewsCallback;
-import com.project.newsservice.infra.services.GoogleNewsCallbackImpl;
 
 import lombok.RequiredArgsConstructor;
 

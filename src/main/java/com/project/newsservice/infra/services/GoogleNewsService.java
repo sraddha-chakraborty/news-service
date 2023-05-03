@@ -1,20 +1,16 @@
 package com.project.newsservice.infra.services;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
 import com.kwabenaberko.newsapilib.NewsApiClient;
 import com.kwabenaberko.newsapilib.models.request.EverythingRequest;
-import com.kwabenaberko.newsapilib.models.request.TopHeadlinesRequest;
 import com.kwabenaberko.newsapilib.models.response.ArticleResponse;
 import com.project.newsservice.application.news.ThirdPartyNewsService;
 import com.project.newsservice.domain.News;
 
-import lombok.RequiredArgsConstructor;
-import lombok.var;
 
 @Component
 public class GoogleNewsService implements ThirdPartyNewsService{
